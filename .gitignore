@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Datasets
+src/data/raw/scielo/articles.jsonl
+src/data/raw/wikipedia_es/articles.jsonl
+.jsonl
