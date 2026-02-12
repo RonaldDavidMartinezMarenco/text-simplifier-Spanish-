@@ -70,6 +70,7 @@ def canonicalize_url(href: str) -> str:
                              urlencode({"script": "sci_arttext", "pid": pid}), ""))
     if "/article/" in href:
         return href.rstrip("/")
+
     return ""
 
 def fetch_article_info(url:str):
